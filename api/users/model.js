@@ -19,6 +19,7 @@ const find = () => {
   return Promise.resolve(users)
 }
 
+
 const findById = id => {
   // SELECT * FROM users WHERE id = 1;
   const user = users.find(d => d.id === id)
